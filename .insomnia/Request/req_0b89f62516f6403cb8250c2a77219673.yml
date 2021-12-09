@@ -1,0 +1,41 @@
+_id: req_0b89f62516f6403cb8250c2a77219673
+type: Request
+parentId: fld_a50bb8b0161d417eafc638479f742d89
+modified: 1639036031590
+created: 1639028337221
+url: content-service.test/api/widgets/highlight
+name: Store
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"content-widget": [
+    		{
+    			"url": "http://test.com",
+    			"displayed-text": "LOOK: This Filipina Ballerina Got Married in the Most Stu...",
+    			"date-time": "11/17/2021, 09:30 AM"
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_28625dbd725f4b00b2399a93e1b37119
+  - name: Accept
+    value: application/json
+    description: ""
+    id: pair_16e2bea65f2146c183ac71c85e43bf64
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hdXRoLXNlcnZpY2UudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYzOTAzMDY3MiwiZXhwIjoxNjM5MTE3MDcyLCJuYmYiOjE2MzkwMzA2NzIsImp0aSI6InljUUhFWUZ4Y2FiMlR6ZFIiLCJzdWIiOiIwOTNkNDk0ZS04MmQwLTRhOGMtOWUyYi1iNDQ3NzBmNDcwZWUiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3IiwidXNlckluZm8iOnsiaWQiOiIwOTNkNDk0ZS04MmQwLTRhOGMtOWUyYi1iNDQ3NzBmNDcwZWUiLCJ1YW1fdXNlcl9pZCI6bnVsbCwicXVpbGxfdXNlcl9pZCI6MSwiZmlsZV9wYXRoIjpudWxsLCJmaWxlX25hbWUiOm51bGwsImRpc3BsYXlfbmFtZSI6IkFkbWluIHJvbGUiLCJlbWFpbCI6InN1bW1pdC10ZXN0LWVtYWlsQHlvbmR1LmNvbSIsImlzX3ZlcmlmeSI6MSwicmVzZXRfcGFzc3dvcmQiOjAsInNhbHQiOm51bGwsImZpcnN0X25hbWUiOm51bGwsIm1pZGRsZV9uYW1lIjpudWxsLCJsYXN0X25hbWUiOm51bGwsImZhY2Vib29rIjpudWxsLCJ0d2l0dGVyIjpudWxsLCJpbnN0YWdyYW0iOm51bGwsInJvbGVfaWQiOiJmY2YzOTMwMS1kOWRmLTQyMDgtOTgwYy03ODNlMTE3ZWY5ZTQiLCJwb3NpdGlvbiI6bnVsbCwic2x1ZyI6ImFkbWluLXJvbGUiLCJieWxpbmVfc3RhdHVzIjowLCJjbXNfc3RhdHVzIjoxLCJkZWxldGVkX2F0IjpudWxsLCJjcmVhdGVkX2F0IjpudWxsLCJ1cGRhdGVkX2F0IjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwicmVxdWVzdF9zdGF0dXMiOjAsImNyZWF0b3JfdHlwZSI6IkluLWhvdXNlIn19.jPCKLWNfkcOetUC45mncX7AmjVL-fafwwToBIPuwL4I
+metaSortKey: -1639028337221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

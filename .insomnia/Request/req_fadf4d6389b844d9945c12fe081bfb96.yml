@@ -1,0 +1,34 @@
+_id: req_fadf4d6389b844d9945c12fe081bfb96
+type: Request
+parentId: fld_33106fcb9d1a4b64aa63aa6e97748ac1
+modified: 1639027626504
+created: 1639020483017
+url: auth-service.test/api/auth/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "email": "summit-test-email@yondu.com",
+      "password": "asdqwe123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_f65c46dc9d9a4690a9339b3c2d5cff2e
+  - name: Accept
+    value: application/json
+    description: ""
+    id: pair_32bbdd68db6c4549823ca646c35a900f
+authentication: {}
+metaSortKey: -1639020483017
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
